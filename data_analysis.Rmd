@@ -1,0 +1,384 @@
+---
+title: "KRAFTWER KORP SALES ANALYSIS"
+theme: default
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    latex_engine: xelatex
+---
+
+# **Problem Statement**
+Kraftwerk Korp is Atlas AI's new customer. They have 500 stores spread across Nairobi selling 3 different products: Bits, Bobs and Widgets. Kraftwerk has shared with you as a data analyst their sales data which include the location of each store and total sales volume for each product and expect you as a data analyst to help them answer two key questions:
+
+
+1.What is the relationship between store performance and location?  
+2.Based on that relationship, where should Kraftwerk build more stores?  
+
+# **Data Analysis Guide**
+We will use the Google Data Analytics framework to guide us through the analysis:
+
+
+1.**Ask** - **Business Challenge/Objective/Question**
+
+  The key business questions that Kraftwerk wants to answer include:
+
+i)What are the top 5 neighborhoods in terms of revenue?
+  
+ii)What are the top 5 stores in terms of sales quantity?
+  
+iii)What is the best selling item in terms of both sales quanity and revenue?
+  
+iv)Which part of Nairobi has the highest concentration of stores?
+
+2.**Prepare** - **Data generation, collection, storage and management**
+
+  We will load the sales data into R studio session and explore it to understand its structure and properties.
+
+3.**Process** - **Data cleaning and transformation**
+
+  The data cleaning in this case will involve:
+
+-inspecting for NAs/missing values
+
+-formatting column names
+
+-checking for duplicate records
+
+ Data transformation will entail:
+
+-calculating revenue per product
+
+-sorting sales and revenue data
+
+-calculating total revenue and sales for all the products
+
+4.**Analyze** - **Data exploration, visualization and analysis**
+
+  The analysis phase will involve creating static visualizations such as bar plots, box   plots and drawing conclusions.
+
+5.**Share** - **Communicating and interpreting results**
+
+  We will use R shiny tool to help bring the data to life and answer the key business questions.
+
+6.**Act** - **Putting insights to work**
+
+  Finally, we will make data-driven recommendations to Kraftwerk on store performance and expansion strategies
+
+# **Part 1: General EDA - Getting to Know the Data**
+## **1.1 Importing Required Packages**
+If the required libraries are not installed in your R studio session, the following script will install and load the libraries
+```{r libraries, echo=TRUE,warning=FALSE,error=FALSE,message=FALSE}
+#script installs required packages if not installed in the R session
+if(!require(rmarkdown)) install.packages("rmarkdown")
+if(!require(tinytex)) install.packages("tinytex")
+if(!require(tidyverse)) install.packages("tidyverse")
+if(!require(skimr)) install.packages("skimr")
+if(!require(readr)) install.packages("readr")
+if(!require(extrafont)) install.packages("extrafont")
+if(!require(extrafont)) install.packages("ggthemes")
+if(!require(ggtext)) install.packages("ggtext")
+if(!require(ggtext)) install.packages("leaflet")
+
+
+#load the packages
+library(rmarkdown)
+library(tinytex)
+library(tidyverse)
+library(skimr)
+library(readr)
+library(extrafont)
+library(ggthemes)
+library(ggtext)
+library(leaflet)
+
+#font_import()
+#loadfonts(device = "win")
+
+```
+
+## **1.2 Data Preparation**
+### **1.2.1 Load the data**
+```{r dataset load,echo=TRUE,warning=FALSE,error=FALSE,message=FALSE}
+
+data_path = "./www/Kraftwerk_korp_sales.csv"
+
+sales_data = read_csv(data_path)
+
+#script to have the data overview
+head(sales_data)
+```
+
+### **1.2.2 Inspect the data**
+
+The sales data has 501 rows, 8 columns and no missing values.
+```{r dataset structure, echo=TRUE}
+#creating function to understand the data structure
+data_structure <- function(df){
+  
+  #column data types
+  str(df)
+  
+  #summary statistics mean,median,max,min
+  summary(df)
+  
+  #checks for missing values,sd,p0,p25,p50,p75,p100
+  skim(df)
+}
+
+#applying the function to the data
+data_structure(sales_data)
+```
+
+### **1.2.1 Checking for duplicates**
+
+There are no duplicate data entries in the dataset
+```{r check for duplicates, echo=TRUE}
+sum(duplicated(sales_data))
+```
+
+## **1.3 Data Cleaning and Transformation**
+Renaming the columns
+```{r rename columns, echo=TRUE}
+#renaming columns
+sales_data <- sales_data %>%
+  rename(
+    'shop_location' = neighborhood,
+    'lon' = y,
+    'lat' = x
+  )
+head(sales_data)
+```
+
+Calculating the products' revenue for each store
+```{r products revenue, echo=TRUE}
+sales_revenue_data <- sales_data %>%
+  mutate(
+    bits_revenue = bits_qty*100,
+    bobs_revenue = bobs_bqty*150,
+    widgets_revenue = widgets_qty*300,
+    total_revenue = bits_revenue+bobs_revenue+widgets_revenue,
+    total_sales =  bits_qty+bobs_bqty+widgets_qty
+    
+  )
+head(sales_revenue_data)
+```
+Saving the processed and cleaned sales data
+```{r}
+write.csv(sales_revenue_data,"./www/processed_sales_data.csv",row.names = FALSE)
+```
+
+calculating cumulative sales by neighborhood
+```{r neighborhood revenue, echo=TRUE}
+sales_revenue_neighborhood <- sales_revenue_data %>%
+  group_by(shop_location) %>%
+  summarise(
+    neighborhood_revenue = sum(total_revenue)
+  )
+head(sales_revenue_neighborhood)
+```
+
+
+# **Part 2: General EDA - Answering Business Questions**
+
+We will set a plotting theme for our plots
+```{r plotting custom theme, echo=TRUE}
+#setting theme
+f1<-"Comic Sans MS"
+
+custom_theme<-function()
+{
+  #setting font
+Font<-"Comic Sans MS"
+
+theme_economist() %+replace%
+  
+  theme(
+    ########grid elements########
+    panel.grid.major = element_blank(),    #strip major gridlines
+    panel.grid.minor = element_blank(),    #strip minor gridlines
+     axis.ticks = element_blank(),          #strip axis ticks
+    axis.line = element_blank(),
+    ######text elements###########
+    plot.title = element_markdown(             #title
+                   family = Font,            #set font family
+                   size = 13,                #set font size
+                   face = 'bold',            #bold typeface
+                   hjust = 0,                #left align
+                   vjust = 2),               #raise slightly
+      
+      plot.subtitle = element_markdown(          #subtitle
+                   family = Font,            #font family
+                   size = 12,hjust = 0),               #font size
+      
+      plot.caption = element_text(           #caption
+                   family = Font,            #font family
+                   size = 8.7,
+                   hjust = 0
+                   ),               #right align
+      
+      axis.title = element_text( family = Font,size = 11),               #font size
+      
+      axis.text = element_text( family = Font,size = 11),               #font size
+    
+      legend.text = element_text( family = Font,size = 11),
+      legend.title = element_text( family = Font,size = 11),
+      legend.position = "right",
+      plot.background = element_rect(fill = "white", color = NA)
+
+    
+    ###########plot#################
+    
+  )
+}
+```
+
+### **Q1 - What are the top 5 neighborhoods in terms of revenue?**
+```{r Q1, echo=TRUE}
+#filtering top 5 neighborhoods in terms of revenue
+ top5_neighborhoods <-  sales_revenue_neighborhood %>% 
+  arrange(desc(neighborhood_revenue)) %>% 
+  top_n(5)
+
+head(top5_neighborhoods)
+
+```
+Plotting top 5 neighborhoods in terms of revenue
+```{r top 5 neighborhood revenue, echo=TRUE,fig.height=6,fig.width=14,fig.align='left',warning=FALSE}
+top5_neighborhoods %>% 
+  ggplot(aes(x=reorder(shop_location,neighborhood_revenue),y=neighborhood_revenue))+
+  geom_col(fill="#ffc107")+
+  labs(title ="Top 5 neighborhoods in terms of revenue",y="",x="Neighborhood")+
+  geom_text(aes(label=scales::comma(neighborhood_revenue,prefix = "Ksh")),color="black",
+            hjust=0.6,vjust=0.5,family=f1,size=2.8)+
+  coord_flip()+
+  custom_theme()+
+  theme(
+  axis.text.x = element_blank()
+  )
+```
+
+### **Q2 - What are the top 5 stores in terms of sales quantity?**
+
+```{r Q2, echo=TRUE}
+#filtering top 5 stores in terms of sales quantity
+top5_stores <-  sales_revenue_data %>% 
+  select(shop_location,shop_name,total_sales) %>%
+  arrange(desc(total_sales)) %>% 
+  top_n(5)
+
+#inspecting data
+head(top5_stores)
+```
+Plotting top 5 stores in terms of sales quantity
+```{r top 5 stores sales quantity, echo=TRUE,fig.height=6,fig.width=14,fig.align='left',warning=FALSE}
+top5_stores %>% 
+  ggplot(aes(x=reorder(shop_name,total_sales),y=total_sales))+
+  geom_col(fill="#ffc107")+
+  labs(title ="Top 5 stores in terms of sales quantity",y="",x="Shop name")+
+  geom_text(aes(label=scales::comma(total_sales)),color="black",
+            hjust=0.6,vjust=0.5,family=f1,size=2.8)+
+  coord_flip()+
+  custom_theme()+
+  theme(
+  axis.text.x = element_blank()
+  )
+```
+
+### **Q3 - What is the best-selling item in terms of both sales quantity and revenue?**
+```{r q3, echo=TRUE}
+#converting sales_revenue data from wide to long format
+#grouping by product to calculate the total sales volume and revenue for each product
+sales_revenue_data_long <- sales_revenue_data %>% 
+  select(bits_qty:widgets_revenue) %>%
+  gather(product, amount,bits_qty:widgets_revenue)%>%
+  group_by(product) %>%
+  summarise(
+    total_amount = sum(amount)
+  )
+sales_revenue_data_long$type <- c("sales volume","revenue","sales volume","revenue","sales volume","revenue")
+
+sales_revenue_data_long$product <-c("bits","bits","bobs","bobs","widgets","widgets")
+#inspecting the data
+head(sales_revenue_data_long)
+```
+Plotting the best-selling items in terms of both sales quantity and revenue
+```{r best selling items plot, echo=TRUE,fig.height=6,fig.width=14,fig.align='left',warning=FALSE}
+sales_revenue_data_long %>% 
+  ggplot(aes(x=product,y=total_amount,fill=type))+
+  geom_bar(position = "dodge",stat = "identity")+
+  geom_text(aes(label=scales::comma(total_amount)),family = f1,size=2.4,hjust=0.4,vjust=0.5,color="black",
+             position=position_dodge(width=0.9),face="bold")+
+  labs(title = "Best-selling items in terms of both sales quantity and revenue")+
+  scale_fill_manual(values=c("#ffc000","#002060"))+
+  coord_flip()+
+  custom_theme()+
+  theme(
+    axis.title.x = element_blank(),
+    axis.text.x = element_blank(),
+    legend.title = element_blank(),
+    legend.position = "bottom"
+  )
+```
+
+### **Q4 - Which part of Nairobi has the highest concentration of stores?**
+```{r map of store location, echo=TRUE}
+#making a leaflet map to understand geographical distribution of stores
+
+leaflet(width = "100%") %>%
+   # add a default basemap
+  addProviderTiles(providers$Esri.NatGeoWorldMap) %>%
+  addMarkers(
+    data = sales_revenue_data,
+    lng = ~lon,
+    lat = ~lat,
+    # create custom labels
+    label = paste(
+      "Shop Name:",
+      sales_revenue_data$shop_name, "<br>",
+      "Shop Location:",
+     sales_revenue_data$shop_location, "<br>",
+      "Total revenue:",
+      sales_revenue_data$total_revenue, "<br>",
+      "Total sales quantity: ",
+      sales_revenue_data$total_sales
+    )
+    %>%
+      lapply(htmltools::HTML)
+  )
+
+```
+
+Calculating the total store count per neighborhood to determine the areas with highest concentration
+```{r store count per neighborhood, echo=TRUE}
+
+#calculating the store count
+sales_store_count <- sales_revenue_data %>%
+  group_by(shop_location) %>%
+  count(shop_name) %>%
+  summarise(
+    shop_count = sum(n)
+  ) 
+#sorting the data
+top_salesstore_count <- sales_store_count %>% 
+  arrange(desc(shop_count)) %>% top_n(5)
+
+#inspecting data 
+head(top_salesstore_count)
+
+```
+
+Plotting areas with the highest concentration of stores
+```{r}
+top_salesstore_count %>%  ggplot(aes(x=reorder(shop_location,shop_count),y=shop_count))+
+  geom_col(fill="#ffc107")+
+  labs(title ="Parts of Nairobi with the highest concentration of stores",y="",x="Neighborhood")+
+  geom_text(aes(label=shop_count),color="black",
+            hjust=0.6,vjust=0.5,family=f1,size=2.8)+
+  coord_flip()+
+  custom_theme()+
+  theme(
+  axis.text.x = element_blank()
+  )
+```
+

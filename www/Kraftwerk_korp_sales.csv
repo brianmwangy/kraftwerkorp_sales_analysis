@@ -1,0 +1,502 @@
+id,neighborhood,shop_name,y,x,bits_qty,bobs_bqty,widgets_qty
+1,Mlolongo,MG 4 phase 3 dreamland,36.951,-1.39264,6738,3256,2578
+2,Umoja 2 and 3,Green Grocer Shop,36.901442,-1.282295,6369,3679,750
+3,Shauri Moyo,RAMANI SHOP 7068,36.849308,-1.296621,7681,2052,7361
+4,Buruburu,DAUDI'S ENTERPRISES,36.875517,-1.276471,4473,2961,3466
+5,Kangemi,Seraben supermarket-EA,36.748763,-1.266479,2629,9458,7218
+6,Kayole,Eagle Services,36.912029,-1.276038,9706,3896,3865
+7,Pipeline,Lucyron Mini Mart,36.889934,-1.315296,8996,9859,406
+8,Kahawa West,Premier Mart,36.904865,-1.18208,8139,3562,8053
+9,Githurai 44,Danhu Enterprices,36.900807,-1.200401,4819,4784,7039
+10,Kahawa,Jacaranda supermarket,36.895555,-1.189018,265,8575,8597
+11,Thika,Chap Chap Mini Mart,37.06787,-1.03815,1467,271,5636
+12,Mukuru kwa Njenga,Muhindi Mweusi Supermarket-Mukuru kwa Njenga,36.887765,-1.319547,9852,227,7277
+13,Thika,Summer Poshomill,37.103723,-1.054361,8767,3410,6793
+14,Lucky Summer,Nirova Investments,36.903541,-1.237947,6592,4682,6648
+15,Kariobangi South,Phoenix Entertainment,36.884892,-1.270499,4279,6921,2798
+16,Githurai 45,Unique JB Shop,36.915989,-1.20672,8692,4078,5057
+17,Waithaka,Joskam,36.719967,-1.281038,955,4534,1894
+18,Kayole,Step one shop,36.912136,-1.286572,2494,3108,5028
+19,Githurai 45,Bidii Enterprises,36.93822,-1.21397,5821,499,5173
+20,Lucky Summer,Neema cereals B. Dogo,36.8834,-1.24,1711,8055,5185
+21,Mwiki,Nyambo Dairy Mwiki,36.929465,-1.238338,5543,9060,2508
+22,Dandora Phase 2,Wachege Shop,36.896489,-1.254767,6238,331,416
+23,Mwiki,Raha General Shop,36.925549,-1.229502,1489,2763,9899
+24,Maringo,DREAM PUB BUTCHERY,36.8548,-1.2944,6720,6676,7440
+25,Kayole,Palace food merchants,36.916907,-1.271715,137,8721,6095
+26,Kayole,Muhindi Mweusi Supermarket (Kayole),36.914878,-1.281217,9351,7525,6288
+27,Mowlem-Dandora,Miwa tatu merchants,36.902138,-1.265242,2953,8990,2221
+28,Huruma,REE SCENTS BEAUTY SHOP,36.869037,-1.259632,9543,4109,933
+29,Kitengela,Ngwata Shop,36.957298,-1.471206,7145,3016,343
+30,Ndumbuini,Mama brian salon,36.722968,-1.255564,7984,3285,9722
+31,Mlolongo,MG SHOP 5 MG ELECTRONICS & GAS,36.948353,-1.389159,2563,3996,9065
+32,Ruai,Mashtech gas department,36.996761,-1.271607,9264,5896,4547
+33,Mathare slum,Baba Jack,36.86033,-1.261237,7251,5101,3631
+34,Mwiki,Pasals boutique,36.930245,-1.237488,4852,7369,5099
+35,Mathare North,Digital Wave Solutions,36.867535,-1.252948,5447,5904,144
+36,Ruiru,Ebenezer shop (Ruiru Kihunguro),36.961689,-1.159814,3573,9693,7896
+37,Syokimau,Mambo Jambo (Syokimau),36.941266,-1.367928,3086,2018,3219
+38,Kariobangi South,Chetu Chema Enterprise,36.884485,-1.266378,748,5140,7858
+39,Kangemi,Express Supermarket (Waruku),36.75418,-1.26853,5785,5723,2039
+40,Umoja Innercore and 1,Mambi Glassmart`,36.886585,-1.280421,7731,2899,6419
+41,Ruai,Reliance energy mutalia,37.1121,-1.2739,5996,8065,6895
+42,Umoja Innercore and 1,Igwe enterprise Umoja,36.882978,-1.280071,5015,6675,2617
+43,Mwiki,Down Town Shop,36.918968,-1.233626,2751,2215,7915
+44,Umoja 2 and 3,One Stop General Shop (Umoja 2 and 3),36.896536,-1.267108,4026,8158,8514
+45,Uthiru,Elex services shop,36.710997,-1.258915,4038,4147,3138
+46,Kaloleni,SESSIA CEREALS SHOP,36.870171,-1.294508,2262,4065,265
+47,Kawangware,Diznay stores kawangware,36.750438,-1.28859,1301,9129,286
+48,Mwiki,Japata kerosene pump,36.933862,-1.233483,1278,3639,443
+49,Umoja 2 and 3,Danisora Investment Ltd (Umoja 2 and 3),36.899265,-1.285142,5579,4559,6769
+50,Athi River,Bliss Uniform Centre (Athi River),36.9741,-1.45724,2754,5753,9367
+51,Kayole,Sauti (A) Shop,36.919334,-1.268229,5647,4500,9777
+52,Ngummo,Lucky Prince,36.799686,-1.311282,6966,4,7516
+53,Umoja 2 and 3,Super bargain shop Umoja,36.893576,-1.276069,6088,3070,1153
+54,Ruai,Jerry cereals shop,36.98864,-1.298765,1769,8597,322
+55,Mlolongo,Hesbonellar shop 2,36.943483,-1.390425,2490,2282,9829
+56,Ngong,Jetmark Traders embulbul,36.67436,-1.333753,8388,4199,8382
+57,Dandora Phase 4 & 5,Mandelas Price,36.905031,-1.242604,865,2418,4848
+58,Syokimau,Fm Technical shop,36.946378,-1.364303,5020,8407,4722
+59,Dandora Phase 3,Kairu's Shopping Complex,36.904,-1.2503,6946,9096,2368
+60,Rongai,Church of the Nazarene Kware,36.748792,-1.391728,9345,4032,2608
+61,Mwiki,Special Gas,36.919849,-1.231961,5494,1859,8219
+62,Thika,TODAY MINI SHOP,37.09698,-1.07252,8127,8890,6676
+63,Kayole,CHRIS MALI MALI SHOP,36.91257,-1.285587,2685,6083,7083
+64,Kasarani,By Grace General Shop - Kasarani,36.898699,-1.218336,9454,4657,9507
+65,Mlolongo,KIKA INVESTMENT,36.94369,-1.386883,2384,3638,8448
+66,Githurai 45,Perfect gas suppliers,36.916722,-1.20781,8558,5114,2493
+67,Kibera,Uchumi Ndogo Shop,36.793135,-1.31547,2772,6689,8215
+68,Umoja 2 and 3,Kingsmatt Milk ATM-EA,36.89822,-1.27905,9578,2424,3740
+69,Kayole,By Grace Derek shop,36.92386,-1.264017,5180,7514,4847
+70,Mathare North,Slopes General Hardware,36.871475,-1.248993,1122,8032,3514
+71,Kahawa West,Dan Rose KM,36.929438,-1.173808,9022,2692,7993
+72,Obama,Genesis Enterprises,36.92449,-1.25633,7052,7467,1424
+73,Thika,DELIGHT BEAUTY SHOP,37.11212,-1.05677,9783,8585,7742
+74,Umoja 2 and 3,Apple Gas Point,36.895805,-1.262469,2075,7005,4042
+75,Kitengela,Ben Ben boutique,36.954459,-1.481914,2488,1436,5147
+76,Ruaka/Denderu,Titans Complex,36.78516,-1.20707,648,1217,1014
+77,"Embakasi (Fedha, Nyayo,Tasia)",Mama Favour shop,36.902982,-1.304446,4041,837,2458
+78,Athi River,Menengai Stores,36.97421,-1.457337,3666,9667,9108
+79,Mowlem-Dandora,Russian enterprises,36.909583,-1.25837,933,5313,5932
+80,Zimmerman,Pegjam Enterprise,36.895159,-1.21041,8641,6921,6766
+81,Mathare North,Gatitu general,36.867776,-1.255071,3143,8188,3008
+82,Juja,Favoured mini mart ( k road),37.003833,-1.121352,6144,8484,3074
+83,Kaloleni,NYANGE STORES,36.860476,-1.298502,891,8426,5138
+84,Thika,Hope Mini Market,37.055877,-1.067204,7570,8623,4295
+85,Kibera,S.M GENERAL SHOP,36.792379,-1.312069,2297,9072,1449
+86,Huruma,Amazing Grace Kerosene Pump,36.877813,-1.258908,3872,3102,6474
+87,Dandora Phase 3,Smart Gas,36.906571,-1.249777,5778,3838,5523
+88,Umoja Innercore and 1,R and K,36.890947,-1.286785,9688,2086,7111
+89,Donholm,One stop butchery,36.889565,-1.292636,2772,6395,9233
+90,"Embakasi (Fedha, Nyayo,Tasia)",Fei Shop At Mradi Slum,36.907776,-1.31566,4144,3324,3341
+91,"Embakasi (Fedha, Nyayo,Tasia)",Robetec General shop,36.90169,-1.31561,566,516,4625
+92,"Embakasi (Fedha, Nyayo,Tasia)",Shop 360,36.911528,-1.308093,3542,991,3939
+93,Githurai 45,Mt Kenya Shop(Githurai 45),36.922537,-1.215014,741,2614,6240
+94,Lucky Summer,Nevillos Investment,36.9012,-1.238628,9829,1963,8041
+95,Kinoo,Supreme Supermarket,36.702679,-1.257242,7419,3949,6790
+96,Thika,Testimony Shop,37.077826,-1.054281,1971,5053,3639
+97,Mlolongo,Walk and shop supermarket,36.939646,-1.395405,6686,9725,3664
+98,Kibera Ayany,Kibera 42,36.77358,-1.309406,6683,7710,3333
+99,Ngando,Pedimart Supermarket & Supplies Ltd,36.73861,-1.30664,6179,3373,8894
+100,Eastleigh,Al Nasri Shop,36.852789,-1.286328,9928,6419,4358
+101,Kahawa West,Avenue Shop-EA,36.902049,-1.186182,595,3525,4431
+102,Umoja 2 and 3,Kaingoni Traders,36.894723,-1.26501,4485,5129,8859
+103,Kitengela,DM gas and Mpesa,36.966553,-1.481087,8040,1333,5523
+104,Waithaka,Mashi minimart,36.724876,-1.29014,9941,1386,7596
+105,Kawangware,Shawnlink Enterprises - Methonge,36.742402,-1.284197,776,323,8579
+106,Maringo,Hurricane Garments,36.861423,-1.293188,5,4066,2800
+107,"Embakasi (Fedha, Nyayo,Tasia)",Bahamas (C) Electronics,36.898,-1.319459,1770,4251,1795
+108,Mwiki,Edibiqs Mini Mart,36.923695,-1.228553,2205,3248,3611
+109,Kayole,Eighty eight auto pcea,36.913473,-1.270776,3607,5789,2800
+110,Dandora Phase 4 & 5,Tula cyber,36.9039,-1.2439,7533,1417,679
+111,Ngando,Kizingo Shop (Jamhuri),36.739172,-1.302147,1935,7738,7471
+112,Dandora Phase 1,INTERNATIONAL YOUNG TAILORS,36.892913,-1.255677,9943,8521,4637
+113,Lucky Summer,Spot on play ground,36.898572,-1.239385,3241,5087,8595
+114,Athi River,STAR LIGHT,36.9728,-1.4546,2757,6317,3816
+115,Kikuyu,Bobs Bistro kwambira,36.651389,-1.217629,5069,5120,7462
+116,Rongai,Digital makaa,36.7571,-1.3977,6341,8038,1299
+117,Jerusalem Jericho,GATHAMBIA SHOP,36.87055,-1.28597,1754,8944,3427
+118,Mlango Kubwa,Open blessings holdings,36.851197,-1.265445,9976,1950,8710
+119,Kayole,Perfect mission investment,36.911102,-1.280288,800,456,6692
+120,Kariobangi North,Jegla Gas,36.8805,-1.2607,68,523,639
+121,Thika,Brians General Shop,37.052557,-1.073286,5343,2828,9612
+122,Mukuru kwa Njenga,NJOWAS TRADERS,36.8851,-1.3192,1403,237,9178
+123,Mlolongo,MG shop 3,36.944664,-1.400473,8177,3292,7464
+124,Kahawa,Favoured Shop,36.925934,-1.198976,4702,9748,9849
+125,Waithaka,Quick fix,36.723562,-1.289973,3114,5659,3229
+126,Githurai 45,Magic Furnisher,36.936827,-1.208836,1296,6967,7778
+127,Kahawa West,BEAUTIFLOW LTD,36.907463,-1.181664,1285,9233,5710
+128,Pipeline,Muhindi Mweusi Supermarket Transami,36.896942,-1.324597,6484,1593,5367
+129,Kawangware,Kimsmart Supermarket,36.753427,-1.286466,9885,1056,5240
+130,Kariobangi North,Star Fashion,36.883486,-1.252726,9399,6253,1839
+131,Pipeline,Sirdawa Investment,36.889422,-1.311937,387,6170,458
+132,Limuru,Jamwa Supermarket,36.666923,-1.149155,4202,2324,9510
+133,Kibera,Western general shop,36.796079,-1.314581,2464,6403,4724
+134,Mwihoko,Timko Agency 2,36.961505,-1.206047,9995,7364,8611
+135,Githurai 45,God's favour shop (45),36.92238,-1.213022,7187,4253,2825
+136,Kahawa West,Lillies Supermarket,36.906785,-1.18638,3701,3615,7883
+137,Umoja Innercore and 1,Mama Betty mini shop,36.894299,-1.281967,7251,7000,6477
+138,South C,Villes food limited.,36.827877,-1.31356,2539,9780,7866
+139,Pipeline,Bluestart Glassmart And General Merchants,36.897348,-1.319298,3859,9258,7355
+140,Kibera,Double K Beuty Shop,36.79769,-1.312348,4165,9536,9809
+141,Thika,Kikwetu Mini Matt And Dairy,37.080131,-1.036283,2302,8974,1934
+142,Mathare slum,Highway store,36.863018,-1.262419,8873,3448,2334
+143,Ruiru,Dobren Enterprises,36.958298,-1.157397,2467,8483,3991
+144,Mwiki,Johntex electronics,36.934691,-1.234749,1235,2379,7708
+145,Lucky Summer,Rk Investment,36.889565,-1.244379,5859,7433,5660
+146,Lucky Summer,Spot on mainstage,36.8975,-1.2398,7638,2126,3641
+147,Pipeline,General Citizen Supermarket,36.895861,-1.318289,3992,8535,6249
+148,Gatina,Mwireri Shop,36.75152,-1.28001,1890,6853,2223
+149,Buruburu,The Care Beauty Salon,36.87418,-1.279283,4498,6904,4370
+150,CBD,Muthurwa Nine Investments,36.8343,-1.2879,927,9488,4212
+151,Marurui,Agash Investment Ltd,36.8885,-1.200013,4525,6281,1520
+152,Kahawa West,LAQUINTA SUPERMARKET (KM),36.930603,-1.17459,2446,9627,9182
+153,Huruma,Limbo ChapChap Store,36.87626,-1.255687,1684,5188,4285
+154,Kariobangi South,KASA GAS SUPPLY,36.885263,-1.267297,6984,1631,4936
+155,Thika,Everest enterprise makongeni,37.11396,-1.05793,1027,9055,6917
+156,Mwiki,Kena enterprises,36.9309,-1.2368,5804,2267,4566
+157,Dandora Phase 4 & 5,Grahons Enterprise,36.913562,-1.241973,4055,1082,2574
+158,Dandora Phase 1,Kuku shop,36.89282,-1.255243,9290,8982,824
+159,Shauri Moyo,THE PLACE TO BE,36.847364,-1.28873,5044,2683,5598
+160,Kitengela,Bethel Shop,36.953545,-1.475323,6798,3670,2467
+161,Kayole,Carfex general store,36.910978,-1.287483,7700,3634,8354
+162,Kibera Ayany,Graceline adventures,36.777108,-1.311783,9893,4502,2244
+163,Imara Daima,Blessed cereals shop,36.890937,-1.326212,87,2488,569
+164,Mathare North,Junja traders,36.874215,-1.25082,9621,6350,3484
+165,Waithaka,Maxim Enterprises,36.728027,-1.279152,9339,5266,9634
+166,Eastleigh,Utukufu Butchery,36.850742,-1.282451,3849,50,4283
+167,Umoja 2 and 3,Edlink agencies,36.893516,-1.272407,9923,4905,7149
+168,Mwiki,Jirehmart,36.922333,-1.227206,93,282,564
+169,Umoja 2 and 3,GENESSIS ATM MILK,36.893471,-1.268624,3521,7152,3797
+170,Gachie,Kings Gas,36.778441,-1.220172,4133,4560,1865
+171,Rongai,Nel shop,36.720999,-1.373498,1105,4809,9675
+172,Ruaraka/Baba Dogo,Oasis Minimart,36.885662,-1.24813,7222,9821,8327
+173,Buruburu,EPIC ENERGY EFFICIENT TECHNOLOGIES LTD,36.881417,-1.287633,3378,2488,8396
+174,Kariobangi North,Karia Supermarket 6,36.884,-1.2632,4289,1342,4974
+175,Mathare slum,PAMOJA EXPRESS SUPERMARKET,36.86459,-1.25998,2505,218,7448
+176,Huruma,Irene Muthoni Njuguna shop,36.875125,-1.260785,4839,1874,1538
+177,Kahawa West,Elidah Supermarket,36.906147,-1.184312,1444,3214,6473
+178,Thika,Le Patron Thika,37.0789,-1.0384,8261,4231,2893
+179,Huruma,Milestone Technology Ltd,36.869873,-1.257232,9507,9898,6860
+180,Kaloleni,SHASHE ENTERPRISES,36.858583,-1.296482,770,397,3147
+181,Kikuyu,Boutique kikuyu,36.664455,-1.245543,6354,6911,526
+182,Kayole,Smart Gas Supply,36.914743,-1.280473,691,7124,7913
+183,Kawangware,Solomon's Shop,36.744355,-1.285308,356,9857,4887
+184,Huruma,GOD IS GOOD BUSINESS CENTER,36.87624,-1.25441,1084,6530,6501
+185,Eastleigh,Fixmatt Supermarket Pumwani California,36.847004,-1.282601,8165,3046,784
+186,Kitengela,Mt kenya shop kitengela,36.956175,-1.472097,9681,9822,2060
+187,Kasarani,El- Betel General Shop,36.909168,-1.219623,192,3135,8306
+188,Buruburu,KAWASANG GAS RETAILER,36.8804,-1.2839,2503,5609,9618
+189,Mathare North,Dc Wines And Spirit,36.872799,-1.247656,6227,8671,9265
+190,Mathare North,Genuine Gas,36.872687,-1.248028,504,3204,8167
+191,Buruburu,Hillocks Shop Harambee,36.87502,-1.284686,7308,9666,8931
+192,Nairobi West,Wild style shop,36.820275,-1.307627,1835,2626,5541
+193,Kiambu Township,Shegeh Distributors,36.840847,-1.17026,6509,71,2536
+194,Athi River,TWINE SHOP,36.979389,-1.448687,4980,6258,9172
+195,Juja,Kamaham Traders (Juja),36.999372,-1.081783,7194,8170,9685
+196,"Embakasi (Fedha, Nyayo,Tasia)",Seven Up,36.895861,-1.307285,5674,4141,5354
+197,Riruta Satellite,Kizingo Cyber Satellite,36.735249,-1.292524,1346,8837,6140
+198,Kibera,Human Needs Project (Kibera),36.781443,-1.314061,8447,5869,3628
+199,Kitengela,Best home store,36.959295,-1.478168,6450,5307,3987
+200,Ruai,Safeway's Electronics,36.972566,-1.290314,7148,5740,2548
+201,Ruai,RSL supermarket,36.97236,-1.288129,907,2457,2470
+202,Thika,Murime Enterprises,37.075002,-1.048719,6925,2746,9925
+203,Kiambiu,Kamax Enterprises,36.866121,-1.28104,4933,5071,7660
+204,Kawangware,Fraemy Supermarket,36.75179,-1.28085,6454,7275,2054
+205,Huruma,Jose shop,36.872229,-1.257872,2397,3546,6219
+206,Nairobi West,Nairobi West gas,36.822751,-1.307331,9109,6153,2857
+207,Kibera,Ogare Success,36.777378,-1.313229,1913,8998,236
+208,Ngara,African General Store,36.829803,-1.278025,9014,6889,6068
+209,Kayole,Afro lights electricals and hardware,36.911718,-1.276483,1589,6646,3285
+210,Langata,Mambo Jambo Mini Mart,36.779191,-1.323359,4302,5425,310
+211,Ruai,Agape gas center,36.95885,-1.280463,5771,630,9181
+212,Ngando,Wambati Mini Market,36.744403,-1.302224,5370,237,1557
+213,Waithaka,Simran Investment,36.720762,-1.285075,7100,8237,3039
+214,Kitengela,Gichuki electronics,36.959882,-1.474392,5042,6651,3814
+215,Kayole,Gas point patanisho,36.911415,-1.27352,1209,6125,1951
+216,Chokaa,Muhindi mweusi supermarket Chokaa,36.951565,-1.249931,5570,9193,5709
+217,Thika,ANDAY GAS SUPPLIERS MALABA,37.075179,-1.092763,619,3464,2018
+218,Thika,Duka la vyoo (kisii),37.125338,-1.069117,3977,2276,3971
+219,Dandora Phase 4 & 5,Chwele Shop,36.91079,-1.243846,8563,7513,3902
+220,Waithaka,Camnice Beauty Shop,36.726907,-1.294156,2868,82,3199
+221,Ruiru,King'swill Trading,36.929214,-1.152419,8859,4175,7839
+222,Ruiru,Naina investments,36.94588,-1.150871,459,7579,8782
+223,Shauri Moyo,Blessed General Shop (Shauri Moyo),36.844063,-1.28968,7925,2104,5689
+224,Kangemi,Kristech enterprises,36.747577,-1.266293,6473,9440,9481
+225,Kariobangi South,Eastlands Energy Center,36.887307,-1.26248,6472,5188,1138
+226,Limuru,Njogu's Shop,36.64238,-1.11119,4625,5206,5135
+227,Ruiru,Kagz shop,36.954188,-1.163578,6100,4257,4541
+228,Umoja Innercore and 1,General shop Umoja,36.896666,-1.284839,5749,8386,8633
+229,Nairobi West,Mumias Gas,36.819121,-1.307093,3329,9518,8466
+230,Kibera,Frida's shop,36.77282,-1.308015,4443,3899,1403
+231,Kayole,Meatland Butchery,36.908503,-1.279651,8618,5631,8358
+232,Ruaka/Denderu,Nandis fashions,36.755853,-1.174637,2195,5675,1324
+233,Kayole,Denzel Communications,36.916437,-1.266498,2866,3959,5997
+234,Kariokor,Mukurwei-ini general shop,36.833656,-1.279981,2550,6014,5103
+235,Thika,Ree Supermarket,37.095347,-1.072549,2320,1221,3998
+236,Donholm,The morgans,36.905613,-1.287104,2996,9533,3789
+237,Huruma,GLAMOROUS SHOP,36.873723,-1.256937,1774,1809,5556
+238,Ngong,Leyfin's crunchy cafe,36.6602,-1.3496,5244,6201,4922
+239,Dandora Phase 4 & 5,Glory Agency,36.901553,-1.249758,9504,6713,8583
+240,Pipeline,General citizen mini market,36.894464,-1.319343,9917,6507,8176
+241,Jerusalem Jericho,Mercyjoh Shop,36.867088,-1.285917,3031,3880,2042
+242,Dagoretti Corner,Four Mart Supermarket,36.757908,-1.298984,7416,9569,3183
+243,Imara Daima,Wamwea Enterprises,36.885564,-1.323086,3723,8907,4830
+244,Uthiru,Genesis Gas Supplies (Uthiru),36.718094,-1.262259,5208,9137,6265
+245,Pangani,Maskumatt Supermarket,36.839404,-1.267684,2862,3822,5197
+246,Ruai,CEREALS & GENERAL SHOP,36.959689,-1.279939,678,3737,9467
+247,Dandora Phase 4 & 5,Mecks Designers,36.905082,-1.242432,2445,4008,1988
+248,Obama,Soko Huru saika,36.9155,-1.2532,5784,7600,4852
+249,Githurai 45,Samtime Enterprise,36.916947,-1.208568,6234,4762,7869
+250,Kibera,Beauty cosmetic katwekera shop,36.783021,-1.314512,4347,9603,2751
+251,Roysambu/Mirema,Mirema Mini Mart,36.88759,-1.21124,1998,4680,1898
+252,Kiambu Township,Kamukunji ndogo ndumberi,36.80509,-1.152071,6082,828,4884
+253,Kiambu Township,G-unit super store,36.841618,-1.172933,4381,9885,3076
+254,Waithaka,Shawnlink Enterprises,36.723937,-1.282357,3359,7966,8733
+255,Pipeline,Mutifudz Grain Limited (Pipeline),36.89484,-1.32215,645,2316,5540
+256,Dandora Phase 4 & 5,Tragbo agencies mowlem,36.907156,-1.257765,7105,6147,747
+257,Mathare North,Chamka enterprise,36.870745,-1.253079,7324,7710,9830
+258,Kayole,Safe Energy,36.918653,-1.274675,6750,5467,8842
+259,Dandora Phase 4 & 5,Jummos shop,36.909601,-1.244575,7961,3290,4010
+260,Ruai,Jossy Mini Matt,36.987655,-1.284383,3708,6422,2004
+261,Mwiki,Wamsoo shop,36.92111,-1.23714,3832,9842,37
+262,Githurai 44,Precicot Limited,36.90318,-1.202168,6686,7417,2955
+263,Kibera,New kibstan w/salers,36.785435,-1.308553,5585,4386,6707
+264,Athi River,Blessed Gas Centre (Athi River),36.97751,-1.445829,5817,3226,8167
+265,Eastleigh,Shell Bidii-EA,36.848602,-1.279231,1341,9332,1001
+266,Kayole,Kayole Super Duka,36.915335,-1.27713,2742,2064,3510
+267,Thika,LEVAPTRUZY HARDWARE,37.0584,-1.0417,6286,8034,4214
+268,Kayole,Fastnet cyber,36.910146,-1.275927,802,3214,9645
+269,Dandora Phase 1,Rehoboth Shop,36.894304,-1.260006,1497,7951,6488
+270,Ruiru,Members shop,36.964638,-1.127753,1034,2823,9400
+271,Gatina,Fair price cereals (gatina),36.758817,-1.274562,9988,8773,6804
+272,Dandora Phase 4 & 5,Neema Cereals and Shop,36.907641,-1.242938,649,5206,3791
+273,Pangani,Dimension investment,36.838569,-1.267324,3756,4530,6798
+274,Roysambu/Mirema,Six Point One Mart,36.887691,-1.216092,5078,6448,4197
+275,Pangani,Fresh juices and vegetables store(pangani),36.839609,-1.270314,6214,8259,4795
+276,Dandora Phase 4 & 5,Novitech Shop,36.9031,-1.2457,3759,1436,8969
+277,Eastleigh,Blessed Emelda Enterprises,36.851824,-1.267326,2789,3769,1779
+278,Mlolongo,MG GAS AND ELECTRONICS,36.942436,-1.391338,245,1322,9021
+279,Umoja Innercore and 1,Annma Cyber,36.88637,-1.292697,397,6377,1693
+280,Ruaka/Denderu,Shosh general shop,36.760623,-1.178505,2060,7041,2801
+281,Mwiki,Jadmas home decor,36.919232,-1.235815,8509,4493,6555
+282,Imara Daima,Angaza Energy,36.885395,-1.323494,6937,3575,1422
+283,Waithaka,Sauti fresh(Riruta),36.727135,-1.283665,7513,1765,3314
+284,Kariobangi North,Silvapack investment,36.881449,-1.25822,132,9774,5315
+285,Ruiru,Maina Gas,36.945948,-1.154285,5862,9964,7969
+286,Eastleigh Section 3,Bancy general supplies,36.852554,-1.287239,9459,100,1815
+287,Juja,Truthtech Kinyozi,37.021877,-1.090692,8107,6450,4930
+288,Ruaraka/Baba Dogo,Mikey Shop,36.883533,-1.247185,3215,6650,8621
+289,Mathare North,Joy Gas (Mathare North),36.863132,-1.25431,1475,8742,8575
+290,Ruai,Tripple J,36.99735,-1.270865,8370,1429,1501
+291,Githurai 44,A.K Gas Dealers,36.913498,-1.202133,8574,3219,2085
+292,Juja,Stemuck Enterprises,37.01159,-1.121403,8464,3029,1364
+293,Kibera,Kakije Posho Mill,36.7815,-1.3088,6994,8665,18
+294,Dandora Phase 1,Innocent Shop,36.891345,-1.256646,401,2639,445
+295,"Embakasi (Fedha, Nyayo,Tasia)",Bahamas (B) Electronics,36.90016,-1.319926,2648,3225,5358
+296,Huruma,Jennifer shop,36.87801,-1.261433,8824,3057,2310
+297,Dandora Phase 1,Gateway Cereals Shop,36.889931,-1.258599,5583,2010,7908
+298,Thika,Landmark Kinyozi,37.092036,-1.073217,9922,7646,6063
+299,Gachie,Vision Gas,36.767117,-1.219856,399,7132,7790
+300,Dandora Phase 1,Rescue Butchery,36.886841,-1.260556,4857,4205,7851
+301,Kiserian,Corner Duka Kiserian,36.682962,-1.426364,8667,4116,7431
+302,Kayole,Watailor classic collection,36.908417,-1.27944,5027,6015,8932
+303,Ruaraka/Baba Dogo,Emmysam store,36.883077,-1.24916,8051,491,1218
+304,Kariobangi North,Kariobangi Memory Enterprise,36.88065,-1.255859,6935,4750,819
+305,Rongai,Bethsaida cereals and shop,36.749353,-1.394476,1414,2382,5252
+306,Mwiki,Jasco Matt,36.920013,-1.224633,5093,6293,4071
+307,Thika,Edymac electricals Nyacaba,37.055557,-1.098287,7442,871,2018
+308,Dagoretti Corner,EMCO Petrol Station,36.757211,-1.298115,4696,6118,2051
+309,"Embakasi (Fedha, Nyayo,Tasia)",Alevic Chemist,36.88977,-1.30808,8673,2591,5314
+310,Kayole,Sharks Agencies,36.916525,-1.272425,1224,952,1046
+311,Thika,Sabina Muthoni Shop Kibuto,37.053878,-1.073215,6830,9333,6732
+312,"Embakasi (Fedha, Nyayo,Tasia)",Smart shop - Tassia,36.8925,-1.3107,7226,1359,6065
+313,Syokimau,Rolcham Enterprises,36.925971,-1.366397,3346,2778,2064
+314,Kasarani,Zam Chicks Outlet,36.871965,-1.230733,7478,2732,937
+315,Ngara,Dan General Shop,36.833756,-1.272609,6810,1227,4930
+316,Kangemi,Teddy Care Chemist,36.750299,-1.267101,9353,7893,2679
+317,Riruta Satellite,Hermes Dairy,36.738045,-1.29317,7315,4956,4112
+318,Roysambu/Mirema,Mash gas point,36.893081,-1.206058,1176,6332,104
+319,Pangani,Hatron Elect (Pangani),36.837856,-1.26687,8554,3053,954
+320,Dandora Phase 1,Wekonze Enterprise,36.901425,-1.265704,4132,3460,6403
+321,Kariobangi North,Digital Gas,36.883447,-1.255115,1333,5559,1375
+322,Ruiru,Safi sacco,36.933376,-1.151615,630,5949,9607
+323,Kawangware,Amazing Grace,36.75293,-1.283498,3674,7532,6447
+324,Pipeline,Eddysam mini Selection,36.887867,-1.31018,8652,2536,1680
+325,Thika,Abrazack Enterprises,37.105692,-1.060787,2026,7630,3907
+326,Obama,Geoka Traders Cooking Gas,36.9229,-1.257599,1014,2772,7761
+327,Obama,Chany's Butchery-EA,36.919028,-1.25789,1729,8659,8586
+328,Kikuyu,"Mama Tony Shop,Kikuyu",36.674548,-1.211302,6490,971,2168
+329,Bahati,Creammart Holdings Limited,36.85509,-1.29175,2471,2819,1359
+330,Zimmerman,Bethel Mini Mart (Zimmerman),36.89597,-1.2142,7907,2821,7993
+331,Obama,Globelight Electricals,36.923173,-1.255101,6181,8945,2864
+332,Obama,Macbest Supermarket,36.9289,-1.25488,671,2659,7212
+333,Dandora Phase 4 & 5,Arizona shop Dandora,36.913433,-1.242042,9130,5117,8614
+334,Juja,The Rock Butchery,37.020464,-1.092215,2804,6126,1901
+335,Ruaka/Denderu,Reliance kerosene and Gas suppliers,36.755591,-1.177777,1417,5043,8890
+336,Umoja 2 and 3,Nasra studio,36.899233,-1.276346,31,5255,9415
+337,Kitengela,Wellspring Home Supplies,36.955218,-1.481081,9397,1884,953
+338,Huruma,DIGITAL FLAMES SUPERMARKET,36.86579,-1.2606,1853,8058,1659
+339,Eastleigh,Umiema Small Supermarket,36.849037,-1.28111,9671,403,4111
+340,Limuru,Greenland Wholesalers & Distributors Limited,36.64293,-1.110504,299,4770,8527
+341,Kitengela,MEAT MASTERS BUTCHERY,36.965362,-1.496945,3180,4602,8408
+342,Juja,Beza,37.015117,-1.100796,4284,7479,7502
+343,Kawangware,Wavickky shop kawangware,36.74511,-1.287553,6015,4568,9571
+344,Obama,Edmac investment saika,36.916168,-1.256806,5525,2428,7057
+345,Ruaka/Denderu,Spintec Cyber,36.778114,-1.193487,5726,9723,5540
+346,Athi River,ULTASUBLIME CONCEPTS,36.980813,-1.428096,2168,2674,4371
+347,Mlolongo,Mg Shop 2,36.94151,-1.390622,7475,5406,9142
+348,Thika,Masters Seeds Shop,37.125805,-1.065673,3409,9056,2362
+349,Kiambu Township,Shianne Cereals,36.839205,-1.202292,2518,8246,1595
+350,Kibera,Faraji gas supplies,36.775046,-1.312088,5857,6723,8737
+351,Kawangware,Maisha Hardware (Kawangware),36.75185,-1.288882,4691,3043,7810
+352,Kayole,Trinity shop,36.922629,-1.256691,278,6195,3406
+353,Kiambiu,Oryx Shop Kiambiu,36.866184,-1.281909,740,547,3101
+354,Huruma,MERCY HURUMA GAS POINT,36.875327,-1.257804,4297,9499,8841
+355,Kahawa,Metromart Limited,36.931943,-1.191283,6346,2259,9413
+356,Kayole,Kenmar shoes and textiles,36.9253,-1.2623,2264,8006,9876
+357,Waithaka,Wakanyire supermarket,36.722922,-1.281996,738,9198,126
+358,Mlango Kubwa,Options Investments,36.844119,-1.265183,384,2241,9480
+359,Kiambu Township,Zamursky wa Eddy's shop,36.829202,-1.168662,3734,4531,8084
+360,Rongai,Terrazzo Palace,36.744416,-1.396432,4716,5700,4529
+361,Ruaraka/Baba Dogo,Wall Solution Energy Agency,36.880218,-1.241189,9894,9242,2749
+362,Githurai 44,Kamukunji Traders,36.900351,-1.200825,8839,828,5686
+363,Kasarani,KEJACK SHOP- Maternity,36.912959,-1.221507,6368,5410,1771
+364,Dandora Phase 1,Karia Supermarket 2,36.8895,-1.2594,8568,2251,1675
+365,Kiambiu,Rollon Enterprises Kiambiu,36.864531,-1.28202,4390,8887,8365
+366,Eastleigh,Altruism Company Limited,36.843889,-1.268091,8463,6046,5372
+367,Mlolongo,Mwagesicho shop,36.942436,-1.391338,1597,1961,6237
+368,Kayole,Leshcomm Enterprises,36.923375,-1.26496,2017,8055,6974
+369,Kayole,Sauti B Shop,36.920748,-1.269707,8470,3192,9488
+370,Kahawa West,Wamac Collection,36.904179,-1.184481,1129,5701,2351
+371,Thika,Kei kei Celkom shop,37.081275,-1.038262,8545,9873,704
+372,Huruma,Joyraw transaction services,36.874355,-1.260508,3460,475,9099
+373,Ruaka/Denderu,Faulu Kerosene pump,36.823723,-1.215482,78,1776,4324
+374,Dagoretti Corner,Fix-IT Electrical and Hardware,36.756393,-1.299423,7553,514,7115
+375,Mathare slum,Awendo Traders,36.858955,-1.261157,3926,6877,6563
+376,Gachie,Jewel Hardware,36.7558,-1.2146,2383,8489,9079
+377,Gachie,Rwinu ventures,36.77777,-1.22072,6224,8461,5576
+378,Kibera,Double M Enterprises mashimoni,36.795717,-1.314105,8974,9914,4806
+379,Kariobangi South,Smiles Empire,36.885911,-1.263627,5826,8224,5795
+380,Githurai 44,Waimani Gas Shop,36.905198,-1.200107,5124,1547,1625
+381,Ruaka/Denderu,Wote Supermarket,36.746869,-1.193242,2068,7649,4166
+382,Juja,Chamghe Wandu Butchery,37.027418,-1.151306,7895,992,2813
+383,"Embakasi (Fedha, Nyayo,Tasia)",Jambo Enterprises,36.901144,-1.301437,2083,42,2036
+384,Kayole,Top spring medical centre,36.91273,-1.275007,1146,8265,796
+385,Kawangware,Cyber world tech,36.747398,-1.286969,8191,6945,5057
+386,Umoja Innercore and 1,Githimu Phamaceuticals,36.891411,-1.277994,1514,1983,1756
+387,Kitengela,Elohim enterprise,36.955082,-1.481753,2915,6747,7541
+388,Shauri Moyo,Messoh Enterprises,36.848305,-1.292052,2184,6953,152
+389,Zimmerman,Mom's choice self selection,36.895717,-1.210458,2281,6656,8343
+390,Imara Daima,Unique Mini Selection,36.886509,-1.321249,6803,2653,7242
+391,Mathare North,Donisha Cereals,36.874355,-1.25138,6646,6158,403
+392,Ruaka/Denderu,Stewa Shop,36.804493,-1.15215,9842,3459,12
+393,Kitengela,Dm cooking gas,36.963995,-1.480226,8256,3338,585
+394,Zimmerman,Jachin Hardware & Electronics,36.89515,-1.21537,4529,2590,7134
+395,Imara Daima,Blue Flame Gas,36.885113,-1.324048,1294,1623,6344
+396,Kitengela,Carol shop(Yukos),36.952736,-1.50703,9760,8413,6746
+397,Uthiru,Genesis Gas Supplies (Uthiru)-3,36.715435,-1.261459,6192,9580,5026
+398,Kitengela,Sterling Entertainment (Kitengela),36.95819,-1.474523,3396,3915,2900
+399,Eastleigh Section 3,Jinsia General Shop,36.853863,-1.28494,3950,4209,5461
+400,Kiambu Township,Milimani Gas And Kerosine Pump,36.751743,-1.147362,3594,4417,6375
+401,Mlolongo,ELITE MERCHANTS,36.9476,-1.3999,1871,9931,1403
+402,Eastleigh,Emmanuel store,36.850013,-1.271958,2586,6610,5619
+403,Dandora Phase 2,Liomart,36.9018,-1.252993,5170,7860,6988
+404,Kasarani,By Faith General Shop,36.907242,-1.212493,7838,1660,8483
+405,Kahawa West,Kamae supermarket (kamae road Kahawa west),36.910097,-1.17555,829,4055,7087
+406,Zimmerman,K1 Gas,36.894347,-1.213012,9820,2528,3152
+407,Eastleigh Section 3,Annointed Shop Kiambiu,36.86159,-1.283588,8490,1838,8405
+408,Mathare North,Inforsoft technology,36.874023,-1.250552,5616,1932,2762
+409,Kibera,Luzon (Kibera),36.788573,-1.312145,4828,8082,1451
+410,Kawangware,Eunika Supermarket-EA,36.744849,-1.285543,7020,3284,9844
+411,Rongai,Loliondo mini supermarket( Gataka),36.720302,-1.372516,5241,4570,6106
+412,Eastleigh Section 3,Essy Gas Distributors,36.853108,-1.285448,6187,9185,6862
+413,Imara Daima,Moraa General Shop,36.885441,-1.322034,9486,1607,1840
+414,Dandora Phase 3,Lobentech comps,36.902628,-1.24858,9172,1297,1716
+415,Rongai,Andimi general stores,36.748321,-1.39678,1683,7989,2455
+416,Huruma,Geopharm,36.866928,-1.258972,3797,5326,1632
+417,Mowlem-Dandora,Githogoris Shop,36.900352,-1.26276,9634,928,4313
+418,Kibera Ayany,Anti-Hill Medical Clinic and Chemist -Kibera Ayany,36.774972,-1.310963,3484,9916,7650
+419,"Embakasi (Fedha, Nyayo,Tasia)",Dilmart Stores,36.90222,-1.30498,456,8678,9314
+420,Ruiru,Sasuna gas depot,36.937287,-1.157944,2204,8025,1456
+421,Gatina,Trinity,36.750611,-1.278468,6816,3045,9124
+422,Kikuyu,Mimos general shop,36.67796,-1.269697,6951,2810,1205
+423,Kiserian,Elison Dairy shop,36.690545,-1.432854,9764,6134,3085
+424,Huruma,MNetworks Communication,36.871916,-1.256947,8738,4873,5423
+425,Kibera,Tumaini general shop(Darajani),36.7892,-1.311,1511,9375,4109
+426,Kangemi,Frawaki Supermarket,36.760515,-1.269133,8952,6132,1596
+427,Pipeline,Muhindi Mweusi supermarket Pipeline,36.890395,-1.315282,6151,3524,7247
+428,Ruiru,Blessed Mini Mart (Kihunguro),36.95731,-1.159401,6562,1217,1272
+429,Kasarani,Wizzy Mini Matt,36.9017,-1.2181,7139,344,1142
+430,Zimmerman,Diana Gas,36.894248,-1.212191,4226,8538,8980
+431,Githurai 44,STEPA SUPERMARKET,36.90205,-1.198692,4298,3296,6700
+432,Donholm,KASA GAS SUPPLY DONHOLM,36.890971,-1.29901,7628,8142,8034
+433,Mwiki,Mugumo Chemist,36.922624,-1.2253,9618,1233,9558
+434,Thika,Jobil electronics kiganjo,37.099271,-1.074662,4258,9857,3137
+435,Thika,EJUDE ENTERPRISES,37.12574,-1.06645,1141,3316,4163
+436,Loresho/Kyuna,Raspberry,36.7483,-1.2354,7014,3789,1076
+437,Limuru,Pawa Enterprises,36.627683,-1.109471,1120,2756,1353
+438,Kahawa West,Kanorero Gas supplier,36.902123,-1.183622,6334,1479,9454
+439,Pipeline,Vinny shop,36.896775,-1.321807,2367,6215,3955
+440,Eastleigh Section 3,A. Salam Gas Suppliers,36.852615,-1.28636,8409,5724,1807
+441,Dandora Phase 4 & 5,Revival Shop,36.905012,-1.244254,4108,9944,9409
+442,South C,Aymat bandari,36.8211,-1.3255,393,4085,9972
+443,Kahawa West,NAKI GENERAL SUPPLIERS LTD,36.905127,-1.181835,4317,7266,226
+444,Langata,Violet shop,36.776824,-1.316615,4280,774,4679
+445,Kibera Ayany,Olympics Stage Shop,36.777616,-1.312822,3179,7667,9585
+446,Mathare North,Margaret Shop,36.871407,-1.252993,6691,7529,3820
+447,Kayole,SK Mayai,36.919756,-1.262051,2193,930,6515
+448,Huruma,Petson 3c Hub,36.873,-1.25638,9533,9907,2137
+449,Kariobangi North,Karia Supermarket 5,36.8858,-1.2615,7468,319,7660
+450,Kiserian,Clean Cut,36.688047,-1.43027,5367,3062,2313
+451,Riruta Satellite,Wagache Equity Agent,36.727773,-1.290528,4139,6740,6474
+452,Thika,Mama wangari general shop,37.106128,-1.060829,5061,9357,2632
+453,Pipeline,Naichu enterprises- pipeline,36.893233,-1.320262,3422,8327,414
+454,Ruai,Mashtech bypass,36.98204,-1.263664,4749,6948,7598
+455,Mlolongo,Jikaze Investments (Mlolongo),36.943976,-1.394665,1345,6919,3456
+456,Eastleigh,Kefoma,36.84888,-1.266978,8453,3212,9483
+457,Ruiru,Ken Gas Depot,36.936182,-1.155807,7077,6069,5443
+458,Ngong,Ngong Heights Supermarket,36.656572,-1.356572,9122,7317,623
+459,Githurai 45,Upright ventures,36.938051,-1.2135,4782,8189,9994
+460,Thika,Homeway supermarket (Weitethie),37.053228,-1.067511,3514,2323,3852
+461,Pipeline,Hebamalijee Glassmart Hardware And Paints,36.897274,-1.320337,3399,9578,4521
+462,Limuru,Nyambari Evergreen Agencies,36.631897,-1.053907,4990,5121,4839
+463,South B,Crocodiles place,36.848497,-1.315591,1293,9593,4354
+464,Kibera,Kongowea Shop,36.792364,-1.314954,2896,7913,1056
+465,Jerusalem Jericho,Jericho Cereals Shop,36.870206,-1.292152,6408,3599,5156
+466,Thika,Jobil electronics,37.100464,-1.075016,8042,7779,8787
+467,Kangemi,Yobra Electronics,36.74525,-1.26657,1724,4224,5471
+468,Githurai 45,Wamaina General Shop,36.918631,-1.207918,9749,6095,2071
+469,Ruiru,Maina gas suppliers,36.941816,-1.155478,3324,7164,8306
+470,Githurai 45,Loyal Gas,36.970111,-1.215266,5329,6360,7677
+471,Syokimau,Shanton Saloon,36.934964,-1.371199,9962,8450,854
+472,Kibera,Makaa shop,36.797602,-1.314428,1900,2401,8179
+473,Githurai 45,Nichi Powell's Enterprise,36.932332,-1.211105,1889,5940,5464
+474,Rongai,Economy Traders & Gas Depot,36.746412,-1.39178,9246,7197,2650
+475,Thika,Wa Brian gen supplies,37.11952,-1.06094,2916,9452,7799
+476,Kangemi,Mountain Supermarket,36.7386,-1.27385,155,4587,2149
+477,Mathare North,Manhuss stores,36.866849,-1.253524,2958,5073,1839
+478,Rongai,Creamline Farmers Produce,36.7452,-1.396434,3743,4592,3248
+479,Parklands,Hikma Mart & Wholesale,36.827225,-1.258108,3207,28,2009
+480,Lucky Summer,Daughters Bookshop,36.896458,-1.241237,450,1749,840
+481,Riruta Satellite,Naivasha Classic Butchery,36.746174,-1.290849,6436,1180,77
+482,Umoja Innercore and 1,HEZNIC ENTERPRISES LTD TENA,36.885835,-1.291074,734,145,5788
+483,Kibera,Agape shop,36.801002,-1.315423,331,8993,6335
+484,Zimmerman,Wa Saimo Shop,36.898712,-1.205465,2419,3094,789
+485,Kasarani,Mwapa Shop,36.903628,-1.215243,3406,5743,2242
+486,Kikuyu,Islands shop Kikuyu,36.663118,-1.248537,9256,3322,1417
+487,Ngara,Memos V Wholesale & Retail Shop,36.835274,-1.270732,6499,9069,8878
+488,Githurai 44,Stedo Supermarket,36.90046,-1.20114,7361,6115,794
+489,Ngong,Matasia Mpesa shop,36.683147,-1.392127,9353,178,6344
+490,Kibera,Makina Dailies,36.782999,-1.3077,6820,9597,2730
+491,Lucky Summer,Kibsy traders,36.890835,-1.242303,6685,2186,8758
+492,Imara Daima,JOSPI CHEMIST,36.881643,-1.324636,6129,3567,5106
+493,Rongai,Joyous shop,36.763134,-1.389002,9847,9453,6467
+494,Limuru,Equator Gen Shop,36.64149,-1.107307,8129,5563,4876
+495,Ngummo,One Stop Jusaka Enterprises,36.799693,-1.310799,5779,8244,5085
+496,Buruburu,NJEGATU VENTURES,36.879976,-1.294034,2165,8817,6791
+497,Rongai,Jirani Super Stores,36.773496,-1.391191,6416,9287,5984
+498,Ruaraka/Baba Dogo,Ebenezer shop,36.88915,-1.244373,747,3705,392
+499,Chokaa,Green Grocer And Shop,36.95296,-1.251974,4342,1551,704
+500,Mowlem-Dandora,Isha hardware,36.895203,-1.26378,5905,3151,1080
+501,Ruai,Miwa Tatu Shop 1,37.06544,-1.281675,7854,9847,1373
