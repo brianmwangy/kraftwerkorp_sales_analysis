@@ -65,6 +65,13 @@ iv)Which part of Nairobi has the highest concentration of stores?
 
   Finally, we will make data-driven recommendations to Kraftwerk on store performance and expansion strategies
 
+**Analysis references:**
+
+The sales analysis github link: [Krafter Korp sales analysis](https://github.com/brianmwangy/kraftwerkorp_sales_analysis)
+
+The sales dashboard github link: [Krafter Korp sales dashboard](https://github.com/brianmwangy/krafterkorp_sales_dashboard)
+
+
 # **Part 1: General EDA - Getting to Know the Data**
 ## **1.1 Importing Required Packages**
 If the required libraries are not installed in your R studio session, the following script will install and load the libraries
@@ -164,8 +171,44 @@ sales_revenue_data <- sales_data %>%
 head(sales_revenue_data)
 ```
 Saving the processed and cleaned sales data
-```{r}
+```{r save processed data, echo=TRUE}
 write.csv(sales_revenue_data,"./www/processed_sales_data.csv",row.names = FALSE)
+```
+
+converting sales data to long format for use in dashboard
+```{r sales_qty dashboard data, echo=TRUE}
+#creating long data format for sales quantity for use in dashboard
+salesqty_dashboard_data <- sales_revenue_data %>%
+  select(id:widgets_qty)%>%
+  gather(product, sales_qty,bits_qty:widgets_qty) %>%
+  mutate(product=case_when(
+    product == "bits_qty" ~ "bits",
+    product == "bobs_bqty" ~ "bobs",
+    product == "widgets_qty" ~ "widgets"
+  ))
+head(salesqty_dashboard_data)
+```
+
+```{r  sales_revenue dashboard data, echo=TRUE}
+#creating long data format for sales revenue for use in dashboard
+salesrevenue_dashboard_data <- sales_revenue_data %>%
+  select(bits_revenue:widgets_revenue)%>%
+  gather(product, sales_revenue,bits_revenue:widgets_revenue) %>%
+  mutate(product=case_when(
+    product == "bits_revenue" ~ "bits",
+    product == "bobs_revenue" ~ "bobs",
+    product == "widgets_revenue" ~ "widgets"
+  )) %>% select(sales_revenue)
+head(salesrevenue_dashboard_data)
+```
+```{r final dashboard data, echo=TRUE}
+#merging the datasets by column
+final_dashboard_data <- cbind(salesqty_dashboard_data,salesrevenue_dashboard_data)
+head(final_dashboard_data)
+```
+```{r save final dashboard data, echo=TRUE}
+#merging the datasets by column
+write.csv(final_dashboard_data,"./www/dashboard_data.csv",row.names = FALSE)
 ```
 
 calculating cumulative sales by neighborhood
@@ -234,12 +277,18 @@ theme_economist() %+replace%
 ```
 
 ### **Q1 - What are the top 5 neighborhoods in terms of revenue?**
+#### **Insights:**
+Thika leads with the highest revenue generation at Kes 78,133,900 followed by Kayole (Kes 76,688,100), Kibera (Kes 50,975,000), Huruma (Kes 39,947,950) and Ruiru (Kes 39,075,400).
 ```{r Q1, echo=TRUE}
 #filtering top 5 neighborhoods in terms of revenue
  top5_neighborhoods <-  sales_revenue_neighborhood %>% 
   arrange(desc(neighborhood_revenue)) %>% 
   top_n(5)
 
+#saving dataset for dashboard
+write.csv(top5_neighborhoods,"./www/top5_neighborhoods_revenue.csv",row.names = FALSE)
+
+#inspecting data
 head(top5_neighborhoods)
 
 ```
@@ -258,14 +307,19 @@ top5_neighborhoods %>%
   )
 ```
 
-### **Q2 - What are the top 5 stores in terms of sales quantity?**
 
+### **Q2 - What are the top 5 stores in terms of sales quantity?**
+#### **Insights:**
+Milestone Technology Ltd store tops in terms of the sales volume at 26,265 units, followed by Delight Beauty shop (26,110 units), Timko Agency 2 (25,970), Hillocks shop Harambee (25,905 units), Joyous shop (25,767 units).
 ```{r Q2, echo=TRUE}
 #filtering top 5 stores in terms of sales quantity
 top5_stores <-  sales_revenue_data %>% 
   select(shop_location,shop_name,total_sales) %>%
   arrange(desc(total_sales)) %>% 
   top_n(5)
+
+#saving dataset for dashboard
+write.csv(top5_stores,"./www/top5_stores_salesqty.csv",row.names = FALSE)
 
 #inspecting data
 head(top5_stores)
@@ -286,6 +340,8 @@ top5_stores %>%
 ```
 
 ### **Q3 - What is the best-selling item in terms of both sales quantity and revenue?**
+#### **Insights:**
+Widgets products are the best selling item in terms of sales revenue at Kes 747 509 100. Bobs products are the best selling item in terms of sales volume at 2,592,791 units.
 ```{r q3, echo=TRUE}
 #converting sales_revenue data from wide to long format
 #grouping by product to calculate the total sales volume and revenue for each product
@@ -299,6 +355,10 @@ sales_revenue_data_long <- sales_revenue_data %>%
 sales_revenue_data_long$type <- c("sales volume","revenue","sales volume","revenue","sales volume","revenue")
 
 sales_revenue_data_long$product <-c("bits","bits","bobs","bobs","widgets","widgets")
+
+#saving dataset for dashboard use
+write.csv(sales_revenue_data_long,"./www/bestselling_item.csv",row.names = FALSE)
+
 #inspecting the data
 head(sales_revenue_data_long)
 ```
@@ -322,6 +382,7 @@ sales_revenue_data_long %>%
 ```
 
 ### **Q4 - Which part of Nairobi has the highest concentration of stores?**
+There is a positive correlation between the store concentration and revenue generated. Thika, Kayole, Kibera, Huruma have the highest store concentration and revenue generated as earlier observed.
 ```{r map of store location, echo=TRUE}
 #making a leaflet map to understand geographical distribution of stores
 
@@ -363,6 +424,9 @@ sales_store_count <- sales_revenue_data %>%
 top_salesstore_count <- sales_store_count %>% 
   arrange(desc(shop_count)) %>% top_n(5)
 
+#saving dataset for dashboard use
+write.csv(top_salesstore_count,"./www/top_salesstore_count.csv",row.names = FALSE)
+
 #inspecting data 
 head(top_salesstore_count)
 
@@ -382,3 +446,8 @@ top_salesstore_count %>%  ggplot(aes(x=reorder(shop_location,shop_count),y=shop_
   )
 ```
 
+# **Part 3** **Share** - **Communicating and interpreting results**
+We will use R shiny for bringing our data to life by incorporating interactivity. The live dashboard can be accessed here:[Krafterkorp Sales Dashboard](https://brianmwangy.shinyapps.io/krafterkorp_sales_dashboard/)
+
+# **Part 4** **Act** - **Putting insights to work**
+Kraftwerk Korp have insights on store performance, location, sales revenue and volume and will be able to make informed decisions on areas of expansion and other marketing strategies.
